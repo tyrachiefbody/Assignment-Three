@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    background-color: #89CFF0;
+}
+
+html {
+    margin: 0px;
+    display: 1440px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.sticky-image-wrapper {
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.sticky-image-wrapper img {
+    position: relative;
+    margin: auto;
+}
+
+
+.sticky-image-wrapper2 {
+    display: flex;
+    position: fixed;
+    left: 0px;
+    align-items: center;
+    top: 0px;
+    bottom: 0px;
+}
+
+.sticky-image-wrapper2 img {
+    position: relative;
+    margin: auto;
+}
+
+
+.sticky-image-wrapper3 {
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    display: flex;
+    bottom: 0px;
+}
+
+.sticky-image-wrapper3 img {
+
+    position: relative;
+    margin: auto;
+}
+
+
+.sticky-image-wrapper4 {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+}
+
+.sticky-image-wrapper4 img {
+
+    position: relative;
+    margin: auto;
+}
+
+#figureOne,
+#figureTwo,
+#figureThree,
+#figureFour,
+.figureOptions,
+.figureOptionsTwo,
+.figureOptionsThree,
+.figureOptionsFour {
+    display: none;
+}
+
+p {
+    font-size: 17px;
+    text-align: center;
+    padding-top: 450px;
+    font-family: 'Share Tech Mono', monospace;
+}
